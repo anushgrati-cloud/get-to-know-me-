@@ -411,7 +411,10 @@
 
   /* TESTIMONIALS */
   .testimonials { background: var(--bg1); }
-  .testi-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .testi-grid {
+    display: grid; grid-template-columns: 1fr; gap: 24px;
+    max-width: 720px; margin: 0 auto;
+  }
   .testi-card {
     background: white; border-radius: var(--radius);
     padding: 32px;
